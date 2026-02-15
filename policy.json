@@ -1,0 +1,16 @@
+{
+    "default": {
+        "operations": ["SELECT"],
+        "datasets": {
+            "analytics": ["orders", "customers"]
+        }
+    },
+    "principals": {
+        "sanayamaheshwari58@gmail.com": {
+            "operations": ["SELECT", "CREATE_TABLE", "INSERT", "UPDATE", "DELETE"],
+            "datasets": {
+                "analytics": ["*"]
+            }
+        }
+    }
+}
